@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36301.6 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Chapter05", "Chapter05\Chapter05.rptproj", "{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.Debug|Default.ActiveCfg = Debug
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.Debug|Default.Build.0 = Debug
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.Debug|Default.Deploy.0 = Debug
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.DebugLocal|Default.Build.0 = DebugLocal
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.Release|Default.ActiveCfg = Release
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.Release|Default.Build.0 = Release
+		{B9B7E29A-7883-DDE4-028A-9ABD161F8C77}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
