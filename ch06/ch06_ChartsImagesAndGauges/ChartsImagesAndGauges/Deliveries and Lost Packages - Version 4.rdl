@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.14.36811.4</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-01-07T19:00:35.4163372Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-01-07T19:37:52.2228355Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -153,7 +153,7 @@ ORDER BY MONTH(PickupDateTime)</CommandText>
                   <ChartItemInLegend>
                     <LegendText>Lost Packages</LegendText>
                   </ChartItemInLegend>
-                  <ValueAxisName>Primary</ValueAxisName>
+                  <ValueAxisName>Secondary</ValueAxisName>
                   <CategoryAxisName>Primary</CategoryAxisName>
                   <ChartSmartLabel>
                     <CalloutLineColor>Black</CalloutLineColor>
@@ -281,17 +281,18 @@ ORDER BY MONTH(PickupDateTime)</CommandText>
                   <ChartAxis Name="Primary">
                     <Style>
                       <Border>
-                        <Color>Gainsboro</Color>
+                        <Color>Green</Color>
                         <Style>None</Style>
                       </Border>
                       <FontSize>8pt</FontSize>
-                      <Color>#5c5c5c</Color>
+                      <Color>Green</Color>
                     </Style>
                     <ChartAxisTitle>
-                      <Caption />
+                      <Caption>Deliveries</Caption>
                       <Style>
                         <FontSize>9pt</FontSize>
-                        <Color>#5c5c5c</Color>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>Green</Color>
                       </Style>
                     </ChartAxisTitle>
                     <ChartMajorGridLines>
@@ -312,7 +313,7 @@ ORDER BY MONTH(PickupDateTime)</CommandText>
                     <ChartMajorTickMarks>
                       <Style>
                         <Border>
-                          <Color>Gainsboro</Color>
+                          <Color>Green</Color>
                           <Style>None</Style>
                         </Border>
                       </Style>
@@ -335,17 +336,18 @@ ORDER BY MONTH(PickupDateTime)</CommandText>
                   <ChartAxis Name="Secondary">
                     <Style>
                       <Border>
-                        <Color>Gainsboro</Color>
+                        <Color>Red</Color>
                         <Style>None</Style>
                       </Border>
                       <FontSize>8pt</FontSize>
-                      <Color>#5c5c5c</Color>
+                      <Color>Red</Color>
                     </Style>
                     <ChartAxisTitle>
-                      <Caption />
+                      <Caption>Lost Packages</Caption>
                       <Style>
                         <FontSize>9pt</FontSize>
-                        <Color>#5c5c5c</Color>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>Red</Color>
                       </Style>
                     </ChartAxisTitle>
                     <ChartMajorGridLines>
@@ -366,7 +368,7 @@ ORDER BY MONTH(PickupDateTime)</CommandText>
                     <ChartMajorTickMarks>
                       <Style>
                         <Border>
-                          <Color>Gainsboro</Color>
+                          <Color>Red</Color>
                           <Style>None</Style>
                         </Border>
                       </Style>
@@ -394,25 +396,6 @@ ORDER BY MONTH(PickupDateTime)</CommandText>
                 </Style>
               </ChartArea>
             </ChartAreas>
-            <ChartLegends>
-              <ChartLegend Name="Default">
-                <Style>
-                  <BackgroundGradientType>None</BackgroundGradientType>
-                  <FontSize>8pt</FontSize>
-                </Style>
-                <Position>TopLeft</Position>
-                <ChartLegendTitle>
-                  <Caption />
-                  <Style>
-                    <FontSize>8pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
-                    <TextAlign>Center</TextAlign>
-                  </Style>
-                </ChartLegendTitle>
-                <HeaderSeparatorColor>Black</HeaderSeparatorColor>
-                <ColumnSeparatorColor>Black</ColumnSeparatorColor>
-              </ChartLegend>
-            </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
                 <Caption>Deliveries and Lost Packages</Caption>
