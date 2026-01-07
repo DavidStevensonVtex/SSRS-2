@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ChartsImagesAndGauges", "ChartsImagesAndGauges\ChartsImagesAndGauges.rptproj", "{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.Debug|Default.ActiveCfg = Debug
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.Debug|Default.Build.0 = Debug
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.Debug|Default.Deploy.0 = Debug
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.DebugLocal|Default.Build.0 = DebugLocal
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.Release|Default.ActiveCfg = Release
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.Release|Default.Build.0 = Release
+		{DFB8D3B6-5E4F-B5C2-5986-4F60AA75EF83}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9623E828-227C-48AA-8FC0-D18F12A960D9}
+	EndGlobalSection
+EndGlobal
