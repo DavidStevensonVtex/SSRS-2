@@ -62,6 +62,10 @@
     <Report Include="Discount Analysis.rdl" />
     <Report Include="Fuel Price Chart - Version 1.rdl" />
     <Report Include="Fuel Price Chart - Version 2.rdl" />
+    <Report Include="GDS.gif">
+      <MimeType>image/gif</MimeType>
+    </Report>
+    <Report Include="Nametags.rdl" />
     <Report Include="Package Weight by Planet.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
