@@ -67,6 +67,7 @@
     </Report>
     <Report Include="Nametags.rdl" />
     <Report Include="Package Weight by Planet.rdl" />
+    <Report Include="Place Cards.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
