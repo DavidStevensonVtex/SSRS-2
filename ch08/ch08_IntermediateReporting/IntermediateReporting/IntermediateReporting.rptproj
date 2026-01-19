@@ -52,6 +52,7 @@
     <DataSource Include="Galactic.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="Employee List.rdl" />
     <Report Include="Employee Time.rdl" />
     <Report Include="GDSReport.rdl" />
   </ItemGroup>

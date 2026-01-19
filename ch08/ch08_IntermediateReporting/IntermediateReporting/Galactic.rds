@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Galactic">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=DSTEVENSONWIN10\SQL_2022;Initial Catalog=Galactic</ConnectString>
+    <ConnectString>Data Source=DSTEVENSONWIN10\SQL_2022;Initial Catalog=Galactic;TrustServerCertificate=True</ConnectString>
   </ConnectionProperties>
   <DataSourceID>69c1ec8f-c4a4-47e2-b458-9929cf3119d5</DataSourceID>
 </RptDataSource>
