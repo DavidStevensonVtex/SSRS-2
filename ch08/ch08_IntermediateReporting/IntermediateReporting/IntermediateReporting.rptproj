@@ -56,6 +56,7 @@
     <Report Include="Employee Mailing Labels.rdl" />
     <Report Include="Employee Time.rdl" />
     <Report Include="GDSReport.rdl" />
+    <Report Include="Overtime.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
